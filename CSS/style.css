@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(106, 82, 246);
+}
+
+#mapDiv{
+    width: 40%;
+    margin: auto;
+}
+
+#mapDiv path{
+    fill: chocolate;
+    stroke: cornsilk;
+    stroke-width: 3px;
+}
