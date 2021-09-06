@@ -124,6 +124,28 @@ var santaAna = [
 ];
 var santaAna = santaAna.join("");
 
+//invoc6acion de variables  las que posteriormente
+//se usaran para las funciones
+var ahuachapanF   = document.getElementById("Ahuachapan");
+var cabañasF      = document.getElementById("cabañas");
+//
+var cuscatlanF    = document.getElementById("cuscatlan");
+var laLibertadF   = document.getElementById("laLibertad");
+var laPazF        = document.getElementById("laPaz");
+var sonsonateF    = document.getElementById("sonsonate");
+var sanSalvadorF  = document.getElementById("sanSalvador");
+//
+var laUnionF      = document.getElementById("laUnion");
+var morazanF      = document.getElementById("morazan");
+var sanMiguelF    = document.getElementById("sanMiguel");
+var sanVicenteF   = document.getElementById("sanVicente");
+var usulutanF     = document.getElementById("usulutan");
+var chalatenangoF = document.getElementById("chalatenango");
+var santaAnaF     = document.getElementById("santaAna");
+//identificador de nuestro mi textarea
+var result = document.getElementById("result");
+
+
 
 
 
