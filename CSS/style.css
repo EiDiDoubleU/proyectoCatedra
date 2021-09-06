@@ -12,3 +12,21 @@ body{
     stroke: cornsilk;
     stroke-width: 3px;
 }
+
+#mapDiv :hover{
+    fill:red;
+    cursor: pointer;
+}
+
+#informacion{
+    color: white;
+    width: 5em;
+    height: 5em;
+    background-color: red;
+    margin: auto;
+}
+
+#result{
+    width: 26em;
+    height: 20em;
+}
