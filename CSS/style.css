@@ -1,14 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1&display=swap');
+
 body{
-    background-color: rgb(106, 82, 246);
+
 }
 
 #mapDiv{
+    position:relative;
+    z-index: 2;
+    padding-top:3em;
     width: 40%;
-    margin: auto;
+    margin: 55px 90px 300px 650px;
 }
 
 #mapDiv path{
-    fill: chocolate;
+    fill: rgba(0, 0, 255, 0.938);
     stroke: cornsilk;
     stroke-width: 3px;
 }
@@ -18,15 +23,55 @@ body{
     cursor: pointer;
 }
 
-#informacion{
-    color: white;
-    width: 5em;
-    height: 5em;
-    background-color: red;
+
+#result{
+    font-family: 'Shippori Mincho B1', serif;
+    border-radius: 3px;
+    border: 3px;
+    color: rgb(5, 5, 5);
+    resize: none;
+    background-color:   transparent ;
+    width: 26em;
+    height: 9em;
+    font-size: 18px;
+}
+
+
+
+
+/*muestra de mis arreglos*/
+#caja{
+    position:absolute;
+    
+    top: 18em;
+    left: 300px;
     margin: auto;
 }
 
-#result{
-    width: 26em;
-    height: 20em;
+#hero{
+    min-height: 100vh;
+    position: relative;
+}
+
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+}
+
+.capa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.3;
+    mix-blend-mode: overlay;
+}
+
+.fondo{
+    background-image: url(../IMG/fon.png);
 }
